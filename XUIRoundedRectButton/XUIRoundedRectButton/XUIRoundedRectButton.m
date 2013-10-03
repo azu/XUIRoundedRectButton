@@ -5,7 +5,6 @@
 
 #import "XUIRoundedRectButton.h"
 
-
 @implementation XUIRoundedRectButton {
 
 }

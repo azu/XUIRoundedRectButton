@@ -6,7 +6,7 @@ XUIRoundedRectButton is forward porting UIButton(UIButtonTypeRoundedRect) from i
 
 ## Installation
 
-``` objc
+``` ruby
 pod 'XUIRoundedRectButton'
 ```
 
