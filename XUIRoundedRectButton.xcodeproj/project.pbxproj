@@ -455,6 +455,7 @@
 				GCC_PREFIX_HEADER = "XUIRoundedRectButton/XUIRoundedRectButton-Prefix.pch";
 				INFOPLIST_FILE = "XUIRoundedRectButton/XUIRoundedRectButton-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -468,6 +469,7 @@
 				GCC_PREFIX_HEADER = "XUIRoundedRectButton/XUIRoundedRectButton-Prefix.pch";
 				INFOPLIST_FILE = "XUIRoundedRectButton/XUIRoundedRectButton-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
