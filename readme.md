@@ -7,7 +7,7 @@ XUIRoundedRectButton is forward porting UIButton(UIButtonTypeRoundedRect) from i
 ## Installation
 
 ``` ruby
-pod 'XUIRoundedRectButton'
+pod 'XUIRoundedRectButton', :git => 'https://github.com/azu/XUIRoundedRectButton.git'
 ```
 
 ## Usage
