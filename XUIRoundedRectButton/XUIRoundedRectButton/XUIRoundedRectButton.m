@@ -10,9 +10,6 @@
 }
 
 - (void)setupRoundedRect {
-    if (self.buttonType != UIButtonTypeSystem) {
-        return;
-    }
     [self drawRoundedRect];
 }
 
