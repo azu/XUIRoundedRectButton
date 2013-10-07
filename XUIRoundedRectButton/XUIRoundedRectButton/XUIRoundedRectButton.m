@@ -4,6 +4,7 @@
 
 
 #import "XUIRoundedRectButton.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation XUIRoundedRectButton {
 

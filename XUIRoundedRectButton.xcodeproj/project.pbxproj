@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17B5C735A77EDB20198390C5 /* XUIRoundedRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C9A9B9C70302BD665FE0 /* XUIRoundedRectButton.m */; };
+		17B5C95891D00A357DB141A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CAA7675084D57B5E049A /* QuartzCore.framework */; };
 		73F5806E17FD45BD0025B5AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5806D17FD45BD0025B5AF /* Foundation.framework */; };
 		73F5807017FD45BD0025B5AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5806F17FD45BD0025B5AF /* CoreGraphics.framework */; };
 		73F5807217FD45BD0025B5AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F5807117FD45BD0025B5AF /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 		17B5C0DFCC203619B56D5092 /* XUIRoundedRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUIRoundedRectButton.h; sourceTree = "<group>"; };
 		17B5C460DB3513A321901D77 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5C9A9B9C70302BD665FE0 /* XUIRoundedRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUIRoundedRectButton.m; sourceTree = "<group>"; };
+		17B5CAA7675084D57B5E049A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18828E73C2BD49EBACFAC2DC /* libPods-XUIRoundedRectButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XUIRoundedRectButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F5806A17FD45BD0025B5AF /* XUIRoundedRectButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XUIRoundedRectButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F5806D17FD45BD0025B5AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 				73F5807017FD45BD0025B5AF /* CoreGraphics.framework in Frameworks */,
 				73F5807217FD45BD0025B5AF /* UIKit.framework in Frameworks */,
 				73F5806E17FD45BD0025B5AF /* Foundation.framework in Frameworks */,
+				17B5C95891D00A357DB141A6 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +130,7 @@
 				73F5807117FD45BD0025B5AF /* UIKit.framework */,
 				73F5808F17FD45BD0025B5AF /* XCTest.framework */,
 				18828E73C2BD49EBACFAC2DC /* libPods-XUIRoundedRectButtonTests.a */,
+				17B5CAA7675084D57B5E049A /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
