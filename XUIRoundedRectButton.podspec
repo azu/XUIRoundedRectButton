@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/azu/XUIRoundedRectButton.git", :tag => s.version.to_s }
   s.source_files  = 'XUIRoundedRectButton/XUIRoundedRectButton/**/*.{h,m}'
-  s.framework  = 'QuartzCore'
+  s.framework    = 'QuartzCore'
   s.requires_arc = true
 end
