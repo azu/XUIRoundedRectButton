@@ -230,7 +230,7 @@
 				ORGANIZATIONNAME = azu;
 				TargetAttributes = {
 					73F5808D17FD45BD0025B5AF = {
-						TestTargetID = 73F5806917FD45BD0025B5AF /* XUIRoundedRectButton */;
+						TestTargetID = 73F5806917FD45BD0025B5AF;
 					};
 				};
 			};

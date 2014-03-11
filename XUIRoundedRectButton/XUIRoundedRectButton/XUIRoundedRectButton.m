@@ -4,7 +4,6 @@
 
 
 #import "XUIRoundedRectButton.h"
-#import <QuartzCore/QuartzCore.h>
 
 @implementation XUIRoundedRectButton {
 
@@ -16,9 +15,9 @@
 
 // for iOS7 SDK
 - (void)drawRoundedRect {
-    [self.layer setBorderColor:[UIColor grayColor].CGColor];
-    [self.layer setBorderWidth:0.5f];
-    [self.layer setCornerRadius:8.0f];
+    [self.layer setBorderColor:[UIColor lightGrayColor].CGColor];
+    [self.layer setBorderWidth:0.3f];
+    [self.layer setCornerRadius:6.0f];
 }
 
 - (id)initWithCoder:(NSCoder *) coder {
