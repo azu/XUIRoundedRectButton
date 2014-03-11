@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XUIRoundedRectButton"
-  s.version      = "0.3"
+  s.version      = "1.0.0"
   s.summary      = "XUIRoundedRectButton is forward porting UIButton(UIButtonTypeRoundedRect) from iOS6 SDK to iOS7 SDK."
   s.homepage     = "https://www.monosnap.com/image/zirPSLa1ZhROY41l0PvqzL96H.png"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
